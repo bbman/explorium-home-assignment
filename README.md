@@ -20,4 +20,4 @@ Just run the script, this will:
 Another option is to run the Jenkinsfile, just add it to a job and save.
 it is already set to checkout this repo and run the shell script every Monday at 20:00.
 
-* please note that the delete SG step is commented out. to actual delete, uncomment the last line
+* please note: the delete SG step is commented out. to actual delete, uncomment the last line
