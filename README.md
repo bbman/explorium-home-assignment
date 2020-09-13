@@ -18,4 +18,6 @@ Just run the script, this will:
   - if one of LB is with 0 instances, it will detect the and remove the relvent SG on the list
 
 Another option is to run the Jenkinsfile, just add it to a job and save.
-it is already set to checkout this repo and run the shell script every Monday at 20:00. 
+it is already set to checkout this repo and run the shell script every Monday at 20:00.
+
+* please note that the delete SG step is commented out. to actual delete, uncomment the last line
