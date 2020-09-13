@@ -6,6 +6,11 @@ Explorium files:
 2. Jenkinsfile
 
 
+```
+chmod +x check-sg.sh
+./check-sg.sh
+```
+
 Just run the script, this will: 
   - print all relavent SG (with 3 numbers in the Description text)
   - check SG is not related to Prod.
